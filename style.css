@@ -2,7 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header,
+section h2 {
+    font-family: "Bungee", serif;
+}
+
+body {
+    font-family: "Ysabeau SC", serif;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 header {
@@ -10,11 +20,16 @@ header {
     background-color: #182c61;
     color: #ecf0f1;
 }
+
+header h1,
+section h2 {
+    font-weight: normal;
+}
+
 header nav li {
     display: inline;
     margin-left: 16px;
-    font-size: 24px;
-    
+    font-size: 18px; 
 }
 
 header nav a {
@@ -29,8 +44,43 @@ header nav a {
     margin: 0 auto;
 }
 
-header .container {
+header .container, 
+section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.brands-list img {
+    height: 32px;
+}
+
+.brands-list li {
+    margin-right: 8px;
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #182c61;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
 }
